@@ -470,7 +470,7 @@ h1 {
     border: none;
     border-radius: 4px;
 }
-.submit-icon {
+.sumbit-icon {
     margin-left: 16px;
 }
 ul, ol {
@@ -599,7 +599,7 @@ img {
 .modal-conteiner {
     margin-bottom: 8px;
 }
-.modal-conteiner :not(:last-child) {
+.modal-conteiner-text {
     margin-bottom: 16px;
 }
 .modal-icon {
