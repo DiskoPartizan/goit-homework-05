@@ -597,7 +597,7 @@ img {
     margin-bottom: 4px;
 }
 .modal-conteiner {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 .modal-icon {
     position: absolute;
@@ -655,7 +655,7 @@ img {
     justify-content: center;
     fill: transparent;
 }
-.checkbox-input:checked + .label-privacy>.privacy-icon{
+.checkbox-input:checked + .label-privacy>.policy-accent {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
