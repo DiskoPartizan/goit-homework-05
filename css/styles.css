@@ -558,9 +558,9 @@ img {
     letter-spacing: 0.02em;
     width: 360px;
     height: 24px;
-    position: absolute;
-    top: 72px;
     margin-bottom: 16px;
+    top: 72px;
+    
 }
 .modal-form {
     
@@ -575,9 +575,10 @@ img {
     align-items: flex-start;
     gap: 8px;
     border-radius: 4px;
-    border: 1px solid rgba (46, 47, 66, 0.4);
+    border: 1px solid rgba( 46, 47, 66, 0.4 );
     height: 40px;
     background-color: transparent;
+    outline: transparent;
     padding-left: 38px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
@@ -587,7 +588,7 @@ img {
     fill: #4D5AE5;
 }
 .input-modal:focus + .modal-icon {
-    stroke: #4D5AE5;
+    fill: #4D5AE5;
 }
 .modal-label {
     display: block;
@@ -599,7 +600,7 @@ img {
     margin-bottom: 4px;
 }
 .modal-conteiner {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 .modal-icon {
     position: absolute;
@@ -674,4 +675,7 @@ img {
     background-color: #4D5AE5;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
+    margin-right: auto;
+    margin-left: auto;
 }
